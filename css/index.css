@@ -1,0 +1,142 @@
+body{
+    background-image: url("../imagenes/fondo1.jpg");
+    background-size: cover;
+       -moz-background-size: cover;
+       -webkit-background-size: cover;
+       -o-background-size: cover;
+}
+#contenedor{
+    width: 100%;
+    background-color: rgba(255,255,255,0.4);
+    margin: 1% auto;
+    padding-bottom: 30px;
+}
+img{
+    opacity:1;
+}
+.logo{
+  width:220px;
+  height:220px;
+}
+.logohumidity{
+  width:300;
+  height:120;
+}
+
+#tabla{
+    width: 300px;
+}
+.css-input {
+ font-size:26px;
+ border-radius:8px;
+ border-width:3px;
+ border-style:solid;
+  border-color:#b8b8b8;
+  background-color:#e6fae8;
+  text-shadow:0px 0px 0px rgba(42,42,42,.75);
+  padding:5px;
+  box-shadow: 0px 0px 5px 0px rgba(42,42,42,.75);
+ }
+    .css-input:focus {
+     outline:none;
+    }
+
+    td{
+      	text-align:center;
+    	}
+      .paranombres{
+        	text-align:left;
+      }
+
+.boton2 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7bb876), color-stop(1, #68a54b));
+	background:-moz-linear-gradient(top, #7bb876 5%, #68a54b 100%);
+	background:-webkit-linear-gradient(top, #7bb876 5%, #68a54b 100%);
+	background:-o-linear-gradient(top, #7bb876 5%, #68a54b 100%);
+	background:-ms-linear-gradient(top, #7bb876 5%, #68a54b 100%);
+	background:linear-gradient(to bottom, #7bb876 5%, #68a54b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7bb876', endColorstr='#68a54b',GradientType=0);
+	background-color:#7bb876;
+	border:1px solid #86bd6a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:9px 13px;
+	text-decoration:none;
+  margin-top: 10px;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #7bb876));
+	background:-moz-linear-gradient(top, #68a54b 5%, #7bb876 100%);
+	background:-webkit-linear-gradient(top, #68a54b 5%, #7bb876 100%);
+	background:-o-linear-gradient(top, #68a54b 5%, #7bb876 100%);
+	background:-ms-linear-gradient(top, #68a54b 5%, #7bb876 100%);
+	background:linear-gradient(to bottom, #68a54b 5%, #7bb876 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#7bb876',GradientType=0);
+	background-color:#68a54b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+  .boton{
+        font-size:10px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#0B3B17;
+        border:0px;
+        width:70px;
+        height:19px;
+       }
+
+
+@media screen and (max-width:1366px)
+{
+
+      #contenedor{
+          width: 100%;
+          background-color: rgba(255,255,255,0.4);
+          margin: 1% auto;
+          padding-bottom: 20px;
+      }
+      img{
+          opacity:1;
+      }
+      .logo{
+        width:130px;
+        height:130px;
+      }
+      .logohumidity{
+        width:200;
+        height:80;
+      }
+      #tabla{
+          width: 100px;
+      }
+      td{
+          text-align:center;
+        }
+        .paranombres{
+            text-align:left;
+        }
+      .css-input {
+        font-size:15px;
+        padding:4px;
+       }
+          .css-input:focus {
+           outline:none;
+          }
+
+      .boton2 {
+      	padding:5px 9px;
+      }
+
+  }
